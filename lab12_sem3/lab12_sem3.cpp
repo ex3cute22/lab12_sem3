@@ -149,7 +149,7 @@ public:
     }
     void Display() override {
         AirTransport::Display();
-        cout << "Название: " << name << "\tКол-во пассажиров: " << numberOfPassengers << " \tМаксимальная высота: " << MaxHeight << endl;
+        cout << "Название: " << name << "\tКол-во пассажиров: " << numberOfPassengers << " \tМаксимальная высота: " << MaxHeight << endl << endl;
     }
 };
 
